@@ -1,0 +1,64 @@
+/* NAVIGATION SECTION */
+.navbar{
+    flex-direction: column;
+}
+.navbar ul li a{
+    padding: 0px 5px;
+    font-size: 1rem;
+}
+.navbar ul li{
+    padding: 0px 2px;
+}
+/* HOME SECTION */
+.Home{
+    height: 370px;
+}
+.Home::before{
+    height: 370px;
+}
+.Home p{
+    font-size: 13px;
+    padding: 0px 40px;
+}
+.Home  h1{
+    font-size: 30px;
+}
+.Home .btn button{
+    font-size: 15px;
+    padding: 4px 10px;
+}
+/* SERVICES SECTION */
+.services .boxes{
+    flex-direction: column;
+}
+.services h1{
+    font-size: 30px;
+}
+ .services .box {
+    margin: 2px 0px;
+    margin-bottom: 20px;
+    padding: 14px;
+    }
+/* CLIENTS SECTION */
+.clients{
+    flex-wrap: wrap;
+}
+.clients .brands img{
+    width: 65px;
+    margin: 4px;
+}
+.clients h1{
+    font-size: 30px;
+}
+/* CONTACT US SECTION */
+.contact h1{
+    font-size: 30px;
+}
+.contact form {
+  width: 80%;
+}
+/* FOOTER */
+.footer p{
+    padding: 0px 2px;
+    font-size: 12px;
+}
